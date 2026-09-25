@@ -31,29 +31,17 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      projects: [],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: {
+    title: 'Portfolio of Harlan Bullock',
+    description:
+      'BCIT Computer Systems Technology student — game development, full-stack web, and systems projects.',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'harlan-bullock-4398353a2',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -75,87 +63,65 @@ const CONFIG = {
     email: 'harlanbull7@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    // TODO: replace with a real hosted link to your resume PDF (e.g. a GitHub raw link,
+    // Google Drive share link, or a copy in this repo). Left empty for now so the
+    // "Download Resume" button stays hidden instead of pointing at a dummy file.
+    fileUrl: '',
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C++',
+    'C',
+    'C#',
+    'Java',
+    'Python',
     'JavaScript',
-    'React.js',
+    'SQL',
+    'Unity',
+    'LibGDX',
+    'MonoGame',
+    'Unreal Engine 5',
+    'React',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Firebase',
+    'MongoDB',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Personal / Peer Support',
+      position: 'Computer Systems Assembly & Tech Support',
+      from: 'October 2020',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Marshalls',
+      position: 'Sales Associate',
+      from: 'August 2021',
+      to: 'August 2025',
+      companyLink: '',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  certifications: [],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'British Columbia Institute of Technology (BCIT)',
+      degree: 'Diploma, Computer Systems Technology',
+      from: '2025',
+      to: '2027',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of the Fraser Valley',
+      degree: 'Bachelor of Fine Arts (2½ years completed) and General Studies',
+      from: '2022',
+      to: '2025',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
