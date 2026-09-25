@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['moxharley/Mnemosyne_Term_Project', 'moxharley/WOTCR_JuniperDev', 'moxharley/Cryptophage_COMP-2522-202510', 'moxharley/Green_Scouts_1800_202530_DTC01', 'gboyal-bm/2800-202610-DTC03'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['moxharley/MnemosyneGame', 'moxharley/WOTCRGame', 'moxharley/CryptophageGame', 'moxharley/Green_Scouts_1800_202530_DTC01', 'gboyal-bm/2800-202610-DTC03'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
