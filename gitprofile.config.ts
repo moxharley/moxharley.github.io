@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'moxharley', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['moxharley/Mnemosyne_Term_Project', 'moxharley/WOTCR_JuniperDev', 'moxharley/Cryptophage_COMP-2522-202510', 'moxharley/Green_Scouts_1800_202530_DTC01', 'gboyal-bm/2800-202610-DTC03'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -54,8 +54,8 @@ const CONFIG = {
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
     linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,14 +65,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
+    website: '',
+    phone: '778-938-4110',
+    email: 'harlanbull7@gmail.com',
   },
   resume: {
     fileUrl:
